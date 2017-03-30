@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--This is the landing page that plays a video or image in the background. This is where the user enters his/her login credentials -->
+<html>
+<title>
+Welcome to DreamPlay. ACG's firest eSports platform!
+</title>
+ <head><center>
+ <link rel="stylesheet" type="text/css" href="imaginix.css">
+ <br> <br> <br>
+ <link rel="shortcut icon" href="images/favicon.ico" type="favicon/ico" />
+ </head>
+ <body>
+ <video playsinline autoplay muted loop poster="" id="bgvid">
+    <source src="video/zelda.mp4" type="video/mp4">
+</video>
+ <img src="Picture1.png" alt="DreamPlay Logo" style="width:180px; height:200px;">
+ <form action ="main.html" method="get">
+  Username:<br>
+  <input type="text" name="firstname"><br>
+  Password:<br>
+  <input type="text" name="lastname">
+  <br>
+  <input type="submit" value="Sign-in" onClick="main.html">
+</form>
+ <!--<input type="submit" value="Sign-up">-->
+
+ 	<footer><h5><center>Imaginix Games 2017-2018. All rights reserved. DreamPlay is a registered Trademark. (c)</footer>
+ </body>
+</html>

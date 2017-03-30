@@ -1,0 +1,13 @@
+{
+  "name": "dreamplay",
+  "version": "1.0.0",
+  "description": "DreamPlay - ACG's first social eSports platform",
+  "main": "index.js",
+  "dependencies": {https://github.com/anthonyredoblado/dreamplay},
+  "devDependencies": {https://github.com/anthonyredoblado/dreamplay},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Redoblado",
+  "license": "ISC"
+}

@@ -1,0 +1,194 @@
+ul {
+    font-family: "arial";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFA500;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+
+    font-family: "arial";
+    color: #FFFFFF;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #FF8C00;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+input[type=text] {
+    width: 25%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #FFA500;
+    width: 27%;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 30px 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+h2 span.spacer {
+   padding:0 5px;
+}
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #FFA500;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #FFA500}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
